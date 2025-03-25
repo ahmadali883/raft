@@ -1,6 +1,7 @@
 package raft
 
 import (
+	"fmt"
 	"math/rand"
 	"sync"
 	"time"
@@ -57,6 +58,7 @@ func (rn *RaftNode) resetElectionTimer() {
 		rn.electionTimer.Stop()
 	}
 	timeout := time.Duration(150+rand.Intn(150)) * time.Millisecond
+	fmt.Printf("Node %d resetting election timer to %v\n", rn.id, timeout)
 	rn.electionTimer = time.AfterFunc(timeout, rn.startElection)
 }
 
@@ -79,6 +81,8 @@ func (rn *RaftNode) startElection() {
 	}
 	rn.mu.Unlock()
 
+	fmt.Printf("Node %d starting election for term %d\n", rn.id, rn.currentTerm)
+
 	for _, peer := range rn.peers {
 		go func(p *RaftNode) {
 			var reply RequestVoteReply
@@ -96,6 +100,7 @@ func (rn *RaftNode) startElection() {
 }
 
 func (rn *RaftNode) becomeLeader() {
+	fmt.Printf("Node %d becoming leader for term %d\n", rn.id, rn.currentTerm)
 	rn.state = Leader
 	for i := range rn.peers {
 		rn.nextIndex[i] = len(rn.log)
@@ -122,6 +127,7 @@ func (rn *RaftNode) applyCommittedEntriesLoop() {
 	for {
 		time.Sleep(50 * time.Millisecond)
 		rn.mu.Lock()
+		fmt.Printf("Node %d applying committed entries from %d to %d\n", rn.id, rn.lastApplied+1, rn.commitIndex)
 		for rn.lastApplied < rn.commitIndex {
 			rn.lastApplied++
 			if rn.lastApplied < len(rn.log) {

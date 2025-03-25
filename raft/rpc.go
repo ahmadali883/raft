@@ -1,6 +1,9 @@
 package raft
 
-import "time"
+import (
+	"fmt"
+	"time"
+)
 
 type RequestVoteArgs struct {
 	Term         int
@@ -17,6 +20,8 @@ type RequestVoteReply struct {
 func (rn *RaftNode) RequestVote(args RequestVoteArgs, reply *RequestVoteReply) error {
 	rn.mu.Lock()
 	defer rn.mu.Unlock()
+
+	fmt.Printf("Node %d received RequestVote from Node %d for term %d\n", rn.id, args.CandidateId, args.Term)
 
 	if args.Term < rn.currentTerm {
 		reply.VoteGranted = false
@@ -63,6 +68,9 @@ type AppendEntriesReply struct {
 func (rn *RaftNode) AppendEntries(args AppendEntriesArgs, reply *AppendEntriesReply) error {
 	rn.mu.Lock()
 	defer rn.mu.Unlock()
+
+	fmt.Printf("Node %d received AppendEntries from Node %d (term %d), entries len=%d\n",
+		rn.id, args.LeaderId, args.Term, len(args.Entries))
 
 	reply.Term = rn.currentTerm
 	reply.Success = false
@@ -119,6 +127,8 @@ func (rn *RaftNode) sendHeartbeats() {
 		commitIndex := rn.commitIndex
 		peers := rn.peers
 		rn.mu.Unlock()
+
+		fmt.Printf("Leader %d sending heartbeat with commitIndex=%d\n", leaderId, commitIndex)
 
 		for _, peer := range peers {
 			args := AppendEntriesArgs{

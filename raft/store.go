@@ -1,6 +1,9 @@
 package raft
 
-import "strings"
+import (
+	"fmt"
+	"strings"
+)
 
 func (rn *RaftNode) applyCommittedEntries() {
 	for rn.lastApplied < rn.commitIndex {
@@ -14,6 +17,8 @@ func (rn *RaftNode) applyCommand(command string) {
 	if command == "" {
 		return // Skip empty commands
 	}
+
+	fmt.Printf("Node %d applying command: %s\n", rn.id, command)
 
 	parts := strings.Split(command, ":")
 	if len(parts) < 3 {
@@ -29,17 +34,21 @@ func (rn *RaftNode) applyCommand(command string) {
 }
 
 func (rn *RaftNode) Put(key, value string) bool {
+	fmt.Printf("Node %d received PUT request: %s -> %s\n", rn.id, key, value)
 	return rn.appendLog("PUT:" + key + ":" + value)
 }
 
 func (rn *RaftNode) Append(key, value string) bool {
+	fmt.Printf("Node %d received APPEND request: %s += %s\n", rn.id, key, value)
 	return rn.appendLog("APPEND:" + key + ":" + value)
 }
 
 func (rn *RaftNode) Get(key string) string {
 	rn.mu.Lock()
 	defer rn.mu.Unlock()
-	return rn.kvStore[key]
+	val := rn.kvStore[key]
+	fmt.Printf("Node %d handling GET request: %s -> %s\n", rn.id, key, val)
+	return val
 }
 
 func (rn *RaftNode) appendLog(command string) bool {
@@ -64,6 +73,8 @@ func (rn *RaftNode) appendLog(command string) bool {
 
 	newIndex := len(rn.log)
 	rn.log = append(rn.log, entry)
+
+	fmt.Printf("Node %d appending log entry (term %d): %s\n", rn.id, rn.currentTerm, command)
 
 	// Immediately apply to own state machine
 	rn.applyCommand(entry.Command)
