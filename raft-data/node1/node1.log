@@ -1,0 +1,1309 @@
+[Node 1] 2025/03/25 16:14:19 No previous state found, starting fresh
+[Node 1] 2025/03/25 16:14:19 Node started
+[Node 1] 2025/03/25 16:14:19 Set peers: [2 3 4 5]
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 164ms
+[Node 1] 2025/03/25 16:14:19 Node initialized successfully, waiting as follower for leader election
+[Node 1] 2025/03/25 16:14:19 Received vote request from node 2 for term 1 (my term: 0, votedFor: -1)
+[Node 1] 2025/03/25 16:14:19 Node 2 has higher term (1 > 0), becoming follower
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 172ms
+[Node 1] 2025/03/25 16:14:19 Becoming follower for term 1
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 190ms
+[Node 1] 2025/03/25 16:14:19 Granted vote to node 2 for term 1
+[Node 1] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 239ms
+[Node 1] 2025/03/25 16:14:19 Received 5 log entries from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 295ms
+[Node 1] 2025/03/25 16:14:19 Processing 5 new log entries
+[Node 1] 2025/03/25 16:14:19 Appending 5 new entries to log
+[Node 1] 2025/03/25 16:14:19 Received 5 log entries from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 169ms
+[Node 1] 2025/03/25 16:14:19 Processing 5 new log entries
+[Node 1] 2025/03/25 16:14:19 Received 5 log entries from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 171ms
+[Node 1] 2025/03/25 16:14:19 Processing 5 new log entries
+[Node 1] 2025/03/25 16:14:19 Received 5 log entries from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 158ms
+[Node 1] 2025/03/25 16:14:19 Processing 5 new log entries
+[Node 1] 2025/03/25 16:14:19 Received 5 log entries from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 238ms
+[Node 1] 2025/03/25 16:14:19 Processing 5 new log entries
+[Node 1] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 162ms
+[Node 1] 2025/03/25 16:14:19 Updated commit index: 0 -> 5
+[Node 1] 2025/03/25 16:14:19 Applying committed entries from index 1 to 5
+[Node 1] 2025/03/25 16:14:19 Applying log entry 1: PUT name Alice
+[Node 1] 2025/03/25 16:14:19 Applied PUT command: name = Alice
+[Node 1] 2025/03/25 16:14:19 Applying log entry 2: PUT age 30
+[Node 1] 2025/03/25 16:14:19 Applied PUT command: age = 30
+[Node 1] 2025/03/25 16:14:19 Applying log entry 3: PUT city New York
+[Node 1] 2025/03/25 16:14:19 Applied PUT command: city = New York
+[Node 1] 2025/03/25 16:14:19 Applying log entry 4: PUT greeting Hello
+[Node 1] 2025/03/25 16:14:19 Applied PUT command: greeting = Hello
+[Node 1] 2025/03/25 16:14:19 Applying log entry 5: APPEND greeting , World!
+[Node 1] 2025/03/25 16:14:19 Applied APPEND command: greeting, new value: Hello, World!
+[Node 1] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 211ms
+[Node 1] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 241ms
+[Node 1] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 225ms
+[Node 1] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 180ms
+[Node 1] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:19 Resetting election timer to 187ms
+[Node 1] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:20 Resetting election timer to 153ms
+[Node 1] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:20 Resetting election timer to 175ms
+[Node 1] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:20 Resetting election timer to 167ms
+[Node 1] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:20 Resetting election timer to 213ms
+[Node 1] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:20 Resetting election timer to 271ms
+[Node 1] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:20 Resetting election timer to 234ms
+[Node 1] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:20 Resetting election timer to 195ms
+[Node 1] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:20 Resetting election timer to 275ms
+[Node 1] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:20 Resetting election timer to 257ms
+[Node 1] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:20 Resetting election timer to 268ms
+[Node 1] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:21 Resetting election timer to 160ms
+[Node 1] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:21 Resetting election timer to 260ms
+[Node 1] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:21 Resetting election timer to 214ms
+[Node 1] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:21 Resetting election timer to 263ms
+[Node 1] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:21 Resetting election timer to 266ms
+[Node 1] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:21 Resetting election timer to 181ms
+[Node 1] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:21 Resetting election timer to 174ms
+[Node 1] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:21 Resetting election timer to 186ms
+[Node 1] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:21 Resetting election timer to 156ms
+[Node 1] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:21 Resetting election timer to 237ms
+[Node 1] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:22 Resetting election timer to 254ms
+[Node 1] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:22 Resetting election timer to 260ms
+[Node 1] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:22 Resetting election timer to 240ms
+[Node 1] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:22 Resetting election timer to 252ms
+[Node 1] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:22 Resetting election timer to 174ms
+[Node 1] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:22 Resetting election timer to 202ms
+[Node 1] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:22 Resetting election timer to 278ms
+[Node 1] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:22 Resetting election timer to 236ms
+[Node 1] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:22 Resetting election timer to 277ms
+[Node 1] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:22 Resetting election timer to 264ms
+[Node 1] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:23 Resetting election timer to 295ms
+[Node 1] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:23 Resetting election timer to 282ms
+[Node 1] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:23 Resetting election timer to 290ms
+[Node 1] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:23 Resetting election timer to 174ms
+[Node 1] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:23 Resetting election timer to 155ms
+[Node 1] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:23 Resetting election timer to 291ms
+[Node 1] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:23 Resetting election timer to 294ms
+[Node 1] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:23 Resetting election timer to 265ms
+[Node 1] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:23 Resetting election timer to 224ms
+[Node 1] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:23 Resetting election timer to 258ms
+[Node 1] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:24 Resetting election timer to 263ms
+[Node 1] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:24 Resetting election timer to 227ms
+[Node 1] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:24 Resetting election timer to 242ms
+[Node 1] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:24 Resetting election timer to 248ms
+[Node 1] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:24 Resetting election timer to 290ms
+[Node 1] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:24 Resetting election timer to 270ms
+[Node 1] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:24 Resetting election timer to 174ms
+[Node 1] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:24 Resetting election timer to 169ms
+[Node 1] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:24 Resetting election timer to 178ms
+[Node 1] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:24 Resetting election timer to 279ms
+[Node 1] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:25 Resetting election timer to 297ms
+[Node 1] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:25 Resetting election timer to 225ms
+[Node 1] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:25 Resetting election timer to 271ms
+[Node 1] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:25 Resetting election timer to 271ms
+[Node 1] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:25 Resetting election timer to 231ms
+[Node 1] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:25 Resetting election timer to 229ms
+[Node 1] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:25 Resetting election timer to 256ms
+[Node 1] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:25 Resetting election timer to 274ms
+[Node 1] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:25 Resetting election timer to 162ms
+[Node 1] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:25 Resetting election timer to 296ms
+[Node 1] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:26 Resetting election timer to 189ms
+[Node 1] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:26 Resetting election timer to 167ms
+[Node 1] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:26 Resetting election timer to 159ms
+[Node 1] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:26 Resetting election timer to 212ms
+[Node 1] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:26 Resetting election timer to 259ms
+[Node 1] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:26 Resetting election timer to 294ms
+[Node 1] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:26 Resetting election timer to 282ms
+[Node 1] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:26 Resetting election timer to 170ms
+[Node 1] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:26 Resetting election timer to 297ms
+[Node 1] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:26 Resetting election timer to 229ms
+[Node 1] 2025/03/25 16:14:27 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:27 Resetting election timer to 239ms
+[Node 1] 2025/03/25 16:14:27 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:27 Resetting election timer to 267ms
+[Node 1] 2025/03/25 16:14:27 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:27 Resetting election timer to 200ms
+[Node 1] 2025/03/25 16:14:27 Received heartbeat from leader 2 (term 1)
+[Node 1] 2025/03/25 16:14:27 Resetting election timer to 155ms
+[Node 1] 2025/03/25 16:14:27 Election timeout triggered, starting election
+[Node 1] 2025/03/25 16:14:27 Starting election for term 2 (voted for self)
+[Node 1] 2025/03/25 16:14:27 Requesting vote from peer 5 for term 2
+[Node 1] 2025/03/25 16:14:27 Requesting vote from peer 3 for term 2
+[Node 1] 2025/03/25 16:14:27 Requesting vote from peer 4 for term 2
+[Node 1] 2025/03/25 16:14:27 Requesting vote from peer 2 for term 2
+[Node 1] 2025/03/25 16:14:27 Received vote from peer 3 for term 2, total votes: 2/3 needed
+[Node 1] 2025/03/25 16:14:27 Received vote from peer 2 for term 2, total votes: 3/3 needed
+[Node 1] 2025/03/25 16:14:27 Won election with 3 votes (threshold: 3)
+[Node 1] 2025/03/25 16:14:27 Becoming leader for term 2
+[Node 1] 2025/03/25 16:14:27 Ignoring vote from peer 5 - no longer a candidate (state: leader)
+[Node 1] 2025/03/25 16:14:27 Ignoring vote from peer 4 - no longer a candidate (state: leader)
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:27 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:28 Added log entry and applied locally: PUT location Office
+[Node 1] 2025/03/25 16:14:28 Added log entry and applied locally: APPEND name  Smith, new value: Alice Smith
+[Node 1] 2025/03/25 16:14:28 Sending 2 log entries to node 5 (nextIndex=6)
+[Node 1] 2025/03/25 16:14:28 Sending 2 log entries to node 2 (nextIndex=6)
+[Node 1] 2025/03/25 16:14:28 Sending 2 log entries to node 4 (nextIndex=6)
+[Node 1] 2025/03/25 16:14:28 Sending 2 log entries to node 3 (nextIndex=6)
+[Node 1] 2025/03/25 16:14:28 Updated matchIndex for node 5: 5 -> 7
+[Node 1] 2025/03/25 16:14:28 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:28 Updated matchIndex for node 2: 5 -> 7
+[Node 1] 2025/03/25 16:14:28 Sending 2 log entries to node 3 (nextIndex=6)
+[Node 1] 2025/03/25 16:14:28 Updated commitIndex: 5 -> 7
+[Node 1] 2025/03/25 16:14:28 Applying committed entries from index 6 to 7
+[Node 1] 2025/03/25 16:14:28 Sending 2 log entries to node 4 (nextIndex=6)
+[Node 1] 2025/03/25 16:14:28 Applying log entry 6: PUT location Office
+[Node 1] 2025/03/25 16:14:28 Applied PUT command: location = Office
+[Node 1] 2025/03/25 16:14:28 Applying log entry 7: APPEND name  Smith
+[Node 1] 2025/03/25 16:14:28 Applied APPEND command: name, new value: Alice Smith Smith
+[Node 1] 2025/03/25 16:14:28 Sending 2 log entries to node 2 (nextIndex=6)
+[Node 1] 2025/03/25 16:14:28 Updated matchIndex for node 4: 5 -> 7
+[Node 1] 2025/03/25 16:14:28 Updated matchIndex for node 3: 5 -> 7
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:29 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:30 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:31 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:32 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:33 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:34 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:35 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:36 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:37 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:38 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:39 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:40 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:41 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:42 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:43 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:44 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:45 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:46 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:47 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:48 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:49 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:50 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:51 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:52 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:53 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 4
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 5
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 3
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 2
+[Node 1] 2025/03/25 16:14:54 Sending heartbeat to node 4

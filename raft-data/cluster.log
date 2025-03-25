@@ -1,0 +1,18 @@
+[Cluster] 2025/03/25 16:14:19 Creating Raft nodes...
+[Cluster] 2025/03/25 16:14:19 Setting up peer relationships...
+[Cluster] 2025/03/25 16:14:19 Starting Raft cluster with 5 nodes...
+[Cluster] 2025/03/25 16:14:19 Node 1 state: follower
+[Cluster] 2025/03/25 16:14:19 Node 2 state: leader
+[Cluster] 2025/03/25 16:14:19 Node 3 state: follower
+[Cluster] 2025/03/25 16:14:19 Node 4 state: follower
+[Cluster] 2025/03/25 16:14:19 Node 5 state: follower
+[Cluster] 2025/03/25 16:14:19 Node 2 is the leader
+[Cluster] 2025/03/25 16:14:19 Leader found, performing operations...
+[Cluster] 2025/03/25 16:14:19 Key-value pairs stored:
+[Cluster] 2025/03/25 16:14:19   name: Alice
+[Cluster] 2025/03/25 16:14:19   age: 30
+[Cluster] 2025/03/25 16:14:19   city: New York
+[Cluster] 2025/03/25 16:14:19   greeting: Hello, World!
+[Cluster] 2025/03/25 16:14:27 Simulating failure of Node 2 (leader)
+[Cluster] 2025/03/25 16:14:27 Leader node stopped. Waiting for re-election...
+[Cluster] 2025/03/25 16:14:27 Node 1 is the new leader

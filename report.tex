@@ -1,0 +1,136 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{enumitem}
+
+\title{Raft Consensus Algorithm Implementation Report}
+\author{Distributed Systems Project}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This report documents the implementation of the Raft consensus algorithm, focusing on leader election, log replication, and fault tolerance mechanisms. The implementation follows the specifications outlined in the original Raft paper while adding practical enhancements for robustness and performance.
+
+\section{System Architecture}
+
+\subsection{Core Components}
+The implementation consists of three main components:
+\begin{itemize}
+    \item \textbf{Node Management (node.go)}: Handles node state, leader election, and consensus logic
+    \item \textbf{RPC Communication (rpc.go)}: Manages inter-node communication and log replication
+    \item \textbf{State Storage (store.go)}: Maintains the distributed key-value store
+\end{itemize}
+
+\subsection{Data Structures}
+Key data structures include:
+\begin{lstlisting}[language=Go]
+type LogEntry struct {
+    Index     int
+    Term      int
+    Command   string
+    Status    string    // uncommitted/committed/applied
+    Timestamp time.Time
+}
+
+type RaftNode struct {
+    state           State
+    currentTerm     int
+    votedFor        int
+    log             []LogEntry
+    commitIndex     int
+    lastApplied     int
+    // ... other fields
+}
+\end{lstlisting}
+
+\section{Fault Tolerance Mechanisms}
+
+\subsection{Leader Election}
+The implementation ensures robust leader election through:
+\begin{itemize}
+    \item Randomized election timeouts (150-300ms)
+    \item Term-based voting restrictions
+    \item Log completeness checking before voting
+    \item Persistent vote state across crashes
+\end{itemize}
+
+\subsection{Log Replication}
+Log replication is implemented with the following features:
+\begin{itemize}
+    \item Atomic log updates
+    \item Fast log backtracking using conflict terms
+    \item Majority-based commit rules
+    \item Entry status tracking (uncommitted/committed/applied)
+\end{itemize}
+
+\subsection{Failure Handling}
+The system handles various failure scenarios:
+
+\subsubsection{Leader Failure}
+\begin{itemize}
+    \item Heartbeat-based failure detection
+    \item Automatic election triggering
+    \item State transfer to new leader
+\end{itemize}
+
+\subsubsection{Follower Failure}
+\begin{itemize}
+    \item Log catch-up mechanism
+    \item Incremental log recovery
+    \item Snapshot-based recovery for far-behind nodes
+\end{itemize}
+
+\section{State Persistence}
+The implementation ensures durability through:
+\begin{itemize}
+    \item Periodic state persistence
+    \item Atomic file updates
+    \item Crash recovery procedures
+    \item State machine rebuilding
+\end{itemize}
+
+\section{Performance Optimizations}
+
+\subsection{Log Replication}
+\begin{itemize}
+    \item Batch log entry transmission
+    \item Fast log backtracking using conflict terms
+    \item Efficient log truncation
+\end{itemize}
+
+\subsection{Communication}
+\begin{itemize}
+    \item Asynchronous RPC handling
+    \item Optimized heartbeat intervals
+    \item Batched updates
+\end{itemize}
+
+\section{Testing and Validation}
+The implementation has been tested for:
+\begin{itemize}
+    \item Leader election correctness
+    \item Log consistency
+    \item Fault tolerance
+    \item Network partition handling
+    \item Performance under load
+\end{itemize}
+
+\section{Future Improvements}
+Potential enhancements include:
+\begin{itemize}
+    \item Log compaction through snapshots
+    \item Dynamic membership changes
+    \item Read-only queries optimization
+    \item Better monitoring and metrics
+\end{itemize}
+
+\section{Conclusion}
+The implementation provides a robust and efficient distributed consensus system based on the Raft algorithm. It successfully handles various failure scenarios while maintaining consistency and performance.
+
+\end{document} 

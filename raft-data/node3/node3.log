@@ -1,0 +1,758 @@
+[Node 3] 2025/03/25 16:14:19 No previous state found, starting fresh
+[Node 3] 2025/03/25 16:14:19 Set peers: [1 2 4 5]
+[Node 3] 2025/03/25 16:14:19 Node started
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 218ms
+[Node 3] 2025/03/25 16:14:19 Node initialized successfully, waiting as follower for leader election
+[Node 3] 2025/03/25 16:14:19 Received vote request from node 2 for term 1 (my term: 0, votedFor: -1)
+[Node 3] 2025/03/25 16:14:19 Node 2 has higher term (1 > 0), becoming follower
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 196ms
+[Node 3] 2025/03/25 16:14:19 Becoming follower for term 1
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 298ms
+[Node 3] 2025/03/25 16:14:19 Granted vote to node 2 for term 1
+[Node 3] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 219ms
+[Node 3] 2025/03/25 16:14:19 Received 5 log entries from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 217ms
+[Node 3] 2025/03/25 16:14:19 Processing 5 new log entries
+[Node 3] 2025/03/25 16:14:19 Appending 5 new entries to log
+[Node 3] 2025/03/25 16:14:19 Received 5 log entries from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 251ms
+[Node 3] 2025/03/25 16:14:19 Processing 5 new log entries
+[Node 3] 2025/03/25 16:14:19 Received 5 log entries from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 201ms
+[Node 3] 2025/03/25 16:14:19 Processing 5 new log entries
+[Node 3] 2025/03/25 16:14:19 Received 5 log entries from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 182ms
+[Node 3] 2025/03/25 16:14:19 Processing 5 new log entries
+[Node 3] 2025/03/25 16:14:19 Received 5 log entries from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 206ms
+[Node 3] 2025/03/25 16:14:19 Processing 5 new log entries
+[Node 3] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 269ms
+[Node 3] 2025/03/25 16:14:19 Updated commit index: 0 -> 5
+[Node 3] 2025/03/25 16:14:19 Applying committed entries from index 1 to 5
+[Node 3] 2025/03/25 16:14:19 Applying log entry 1: PUT name Alice
+[Node 3] 2025/03/25 16:14:19 Applied PUT command: name = Alice
+[Node 3] 2025/03/25 16:14:19 Applying log entry 2: PUT age 30
+[Node 3] 2025/03/25 16:14:19 Applied PUT command: age = 30
+[Node 3] 2025/03/25 16:14:19 Applying log entry 3: PUT city New York
+[Node 3] 2025/03/25 16:14:19 Applied PUT command: city = New York
+[Node 3] 2025/03/25 16:14:19 Applying log entry 4: PUT greeting Hello
+[Node 3] 2025/03/25 16:14:19 Applied PUT command: greeting = Hello
+[Node 3] 2025/03/25 16:14:19 Applying log entry 5: APPEND greeting , World!
+[Node 3] 2025/03/25 16:14:19 Applied APPEND command: greeting, new value: Hello, World!
+[Node 3] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 154ms
+[Node 3] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 221ms
+[Node 3] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 234ms
+[Node 3] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 272ms
+[Node 3] 2025/03/25 16:14:19 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:19 Resetting election timer to 251ms
+[Node 3] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:20 Resetting election timer to 200ms
+[Node 3] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:20 Resetting election timer to 153ms
+[Node 3] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:20 Resetting election timer to 218ms
+[Node 3] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:20 Resetting election timer to 275ms
+[Node 3] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:20 Resetting election timer to 297ms
+[Node 3] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:20 Resetting election timer to 280ms
+[Node 3] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:20 Resetting election timer to 188ms
+[Node 3] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:20 Resetting election timer to 255ms
+[Node 3] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:20 Resetting election timer to 186ms
+[Node 3] 2025/03/25 16:14:20 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:20 Resetting election timer to 298ms
+[Node 3] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:21 Resetting election timer to 166ms
+[Node 3] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:21 Resetting election timer to 178ms
+[Node 3] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:21 Resetting election timer to 185ms
+[Node 3] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:21 Resetting election timer to 292ms
+[Node 3] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:21 Resetting election timer to 256ms
+[Node 3] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:21 Resetting election timer to 193ms
+[Node 3] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:21 Resetting election timer to 204ms
+[Node 3] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:21 Resetting election timer to 264ms
+[Node 3] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:21 Resetting election timer to 245ms
+[Node 3] 2025/03/25 16:14:21 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:21 Resetting election timer to 286ms
+[Node 3] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:22 Resetting election timer to 160ms
+[Node 3] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:22 Resetting election timer to 173ms
+[Node 3] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:22 Resetting election timer to 268ms
+[Node 3] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:22 Resetting election timer to 285ms
+[Node 3] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:22 Resetting election timer to 242ms
+[Node 3] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:22 Resetting election timer to 231ms
+[Node 3] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:22 Resetting election timer to 253ms
+[Node 3] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:22 Resetting election timer to 182ms
+[Node 3] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:22 Resetting election timer to 292ms
+[Node 3] 2025/03/25 16:14:22 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:22 Resetting election timer to 290ms
+[Node 3] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:23 Resetting election timer to 210ms
+[Node 3] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:23 Resetting election timer to 222ms
+[Node 3] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:23 Resetting election timer to 246ms
+[Node 3] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:23 Resetting election timer to 253ms
+[Node 3] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:23 Resetting election timer to 241ms
+[Node 3] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:23 Resetting election timer to 261ms
+[Node 3] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:23 Resetting election timer to 226ms
+[Node 3] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:23 Resetting election timer to 291ms
+[Node 3] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:23 Resetting election timer to 274ms
+[Node 3] 2025/03/25 16:14:23 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:23 Resetting election timer to 266ms
+[Node 3] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:24 Resetting election timer to 184ms
+[Node 3] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:24 Resetting election timer to 228ms
+[Node 3] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:24 Resetting election timer to 241ms
+[Node 3] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:24 Resetting election timer to 203ms
+[Node 3] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:24 Resetting election timer to 249ms
+[Node 3] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:24 Resetting election timer to 189ms
+[Node 3] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:24 Resetting election timer to 218ms
+[Node 3] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:24 Resetting election timer to 248ms
+[Node 3] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:24 Resetting election timer to 260ms
+[Node 3] 2025/03/25 16:14:24 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:24 Resetting election timer to 150ms
+[Node 3] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:25 Resetting election timer to 213ms
+[Node 3] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:25 Resetting election timer to 222ms
+[Node 3] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:25 Resetting election timer to 280ms
+[Node 3] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:25 Resetting election timer to 185ms
+[Node 3] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:25 Resetting election timer to 192ms
+[Node 3] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:25 Resetting election timer to 270ms
+[Node 3] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:25 Resetting election timer to 223ms
+[Node 3] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:25 Resetting election timer to 164ms
+[Node 3] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:25 Resetting election timer to 156ms
+[Node 3] 2025/03/25 16:14:25 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:25 Resetting election timer to 285ms
+[Node 3] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:26 Resetting election timer to 175ms
+[Node 3] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:26 Resetting election timer to 281ms
+[Node 3] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:26 Resetting election timer to 274ms
+[Node 3] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:26 Resetting election timer to 171ms
+[Node 3] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:26 Resetting election timer to 151ms
+[Node 3] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:26 Resetting election timer to 272ms
+[Node 3] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:26 Resetting election timer to 289ms
+[Node 3] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:26 Resetting election timer to 284ms
+[Node 3] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:26 Resetting election timer to 217ms
+[Node 3] 2025/03/25 16:14:26 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:26 Resetting election timer to 212ms
+[Node 3] 2025/03/25 16:14:27 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:27 Resetting election timer to 216ms
+[Node 3] 2025/03/25 16:14:27 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:27 Resetting election timer to 245ms
+[Node 3] 2025/03/25 16:14:27 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:27 Resetting election timer to 244ms
+[Node 3] 2025/03/25 16:14:27 Received heartbeat from leader 2 (term 1)
+[Node 3] 2025/03/25 16:14:27 Resetting election timer to 181ms
+[Node 3] 2025/03/25 16:14:27 Received vote request from node 1 for term 2 (my term: 1, votedFor: 2)
+[Node 3] 2025/03/25 16:14:27 Node 1 has higher term (2 > 1), becoming follower
+[Node 3] 2025/03/25 16:14:27 Resetting election timer to 272ms
+[Node 3] 2025/03/25 16:14:27 Becoming follower for term 2
+[Node 3] 2025/03/25 16:14:27 Resetting election timer to 194ms
+[Node 3] 2025/03/25 16:14:27 Granted vote to node 1 for term 2
+[Node 3] 2025/03/25 16:14:27 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:27 Resetting election timer to 271ms
+[Node 3] 2025/03/25 16:14:27 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:27 Resetting election timer to 240ms
+[Node 3] 2025/03/25 16:14:27 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:27 Resetting election timer to 205ms
+[Node 3] 2025/03/25 16:14:27 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:27 Resetting election timer to 204ms
+[Node 3] 2025/03/25 16:14:27 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:27 Resetting election timer to 193ms
+[Node 3] 2025/03/25 16:14:28 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:28 Resetting election timer to 235ms
+[Node 3] 2025/03/25 16:14:28 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:28 Resetting election timer to 261ms
+[Node 3] 2025/03/25 16:14:28 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:28 Resetting election timer to 295ms
+[Node 3] 2025/03/25 16:14:28 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:28 Resetting election timer to 183ms
+[Node 3] 2025/03/25 16:14:28 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:28 Resetting election timer to 183ms
+[Node 3] 2025/03/25 16:14:28 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:28 Resetting election timer to 233ms
+[Node 3] 2025/03/25 16:14:28 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:28 Resetting election timer to 235ms
+[Node 3] 2025/03/25 16:14:28 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:28 Resetting election timer to 278ms
+[Node 3] 2025/03/25 16:14:28 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:28 Resetting election timer to 268ms
+[Node 3] 2025/03/25 16:14:28 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:28 Resetting election timer to 246ms
+[Node 3] 2025/03/25 16:14:28 Received 2 log entries from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:28 Resetting election timer to 282ms
+[Node 3] 2025/03/25 16:14:28 Processing 2 new log entries
+[Node 3] 2025/03/25 16:14:28 Appending 2 new entries to log
+[Node 3] 2025/03/25 16:14:28 Received 2 log entries from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:28 Resetting election timer to 196ms
+[Node 3] 2025/03/25 16:14:28 Processing 2 new log entries
+[Node 3] 2025/03/25 16:14:29 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:29 Resetting election timer to 253ms
+[Node 3] 2025/03/25 16:14:29 Updated commit index: 5 -> 7
+[Node 3] 2025/03/25 16:14:29 Applying committed entries from index 6 to 7
+[Node 3] 2025/03/25 16:14:29 Applying log entry 6: PUT location Office
+[Node 3] 2025/03/25 16:14:29 Applied PUT command: location = Office
+[Node 3] 2025/03/25 16:14:29 Applying log entry 7: APPEND name  Smith
+[Node 3] 2025/03/25 16:14:29 Applied APPEND command: name, new value: Alice Smith
+[Node 3] 2025/03/25 16:14:29 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:29 Resetting election timer to 205ms
+[Node 3] 2025/03/25 16:14:29 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:29 Resetting election timer to 155ms
+[Node 3] 2025/03/25 16:14:29 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:29 Resetting election timer to 264ms
+[Node 3] 2025/03/25 16:14:29 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:29 Resetting election timer to 292ms
+[Node 3] 2025/03/25 16:14:29 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:29 Resetting election timer to 228ms
+[Node 3] 2025/03/25 16:14:29 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:29 Resetting election timer to 198ms
+[Node 3] 2025/03/25 16:14:29 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:29 Resetting election timer to 216ms
+[Node 3] 2025/03/25 16:14:29 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:29 Resetting election timer to 220ms
+[Node 3] 2025/03/25 16:14:29 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:29 Resetting election timer to 225ms
+[Node 3] 2025/03/25 16:14:30 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:30 Resetting election timer to 267ms
+[Node 3] 2025/03/25 16:14:30 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:30 Resetting election timer to 206ms
+[Node 3] 2025/03/25 16:14:30 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:30 Resetting election timer to 279ms
+[Node 3] 2025/03/25 16:14:30 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:30 Resetting election timer to 174ms
+[Node 3] 2025/03/25 16:14:30 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:30 Resetting election timer to 219ms
+[Node 3] 2025/03/25 16:14:30 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:30 Resetting election timer to 277ms
+[Node 3] 2025/03/25 16:14:30 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:30 Resetting election timer to 244ms
+[Node 3] 2025/03/25 16:14:30 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:30 Resetting election timer to 291ms
+[Node 3] 2025/03/25 16:14:30 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:30 Resetting election timer to 205ms
+[Node 3] 2025/03/25 16:14:30 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:30 Resetting election timer to 293ms
+[Node 3] 2025/03/25 16:14:31 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:31 Resetting election timer to 200ms
+[Node 3] 2025/03/25 16:14:31 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:31 Resetting election timer to 279ms
+[Node 3] 2025/03/25 16:14:31 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:31 Resetting election timer to 239ms
+[Node 3] 2025/03/25 16:14:31 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:31 Resetting election timer to 236ms
+[Node 3] 2025/03/25 16:14:31 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:31 Resetting election timer to 286ms
+[Node 3] 2025/03/25 16:14:31 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:31 Resetting election timer to 216ms
+[Node 3] 2025/03/25 16:14:31 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:31 Resetting election timer to 226ms
+[Node 3] 2025/03/25 16:14:31 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:31 Resetting election timer to 299ms
+[Node 3] 2025/03/25 16:14:31 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:31 Resetting election timer to 282ms
+[Node 3] 2025/03/25 16:14:31 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:31 Resetting election timer to 271ms
+[Node 3] 2025/03/25 16:14:32 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:32 Resetting election timer to 203ms
+[Node 3] 2025/03/25 16:14:32 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:32 Resetting election timer to 165ms
+[Node 3] 2025/03/25 16:14:32 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:32 Resetting election timer to 191ms
+[Node 3] 2025/03/25 16:14:32 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:32 Resetting election timer to 235ms
+[Node 3] 2025/03/25 16:14:32 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:32 Resetting election timer to 271ms
+[Node 3] 2025/03/25 16:14:32 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:32 Resetting election timer to 266ms
+[Node 3] 2025/03/25 16:14:32 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:32 Resetting election timer to 245ms
+[Node 3] 2025/03/25 16:14:32 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:32 Resetting election timer to 285ms
+[Node 3] 2025/03/25 16:14:32 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:32 Resetting election timer to 206ms
+[Node 3] 2025/03/25 16:14:32 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:32 Resetting election timer to 263ms
+[Node 3] 2025/03/25 16:14:33 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:33 Resetting election timer to 166ms
+[Node 3] 2025/03/25 16:14:33 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:33 Resetting election timer to 208ms
+[Node 3] 2025/03/25 16:14:33 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:33 Resetting election timer to 189ms
+[Node 3] 2025/03/25 16:14:33 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:33 Resetting election timer to 212ms
+[Node 3] 2025/03/25 16:14:33 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:33 Resetting election timer to 295ms
+[Node 3] 2025/03/25 16:14:33 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:33 Resetting election timer to 164ms
+[Node 3] 2025/03/25 16:14:33 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:33 Resetting election timer to 247ms
+[Node 3] 2025/03/25 16:14:33 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:33 Resetting election timer to 189ms
+[Node 3] 2025/03/25 16:14:33 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:33 Resetting election timer to 261ms
+[Node 3] 2025/03/25 16:14:33 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:33 Resetting election timer to 194ms
+[Node 3] 2025/03/25 16:14:34 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:34 Resetting election timer to 279ms
+[Node 3] 2025/03/25 16:14:34 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:34 Resetting election timer to 235ms
+[Node 3] 2025/03/25 16:14:34 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:34 Resetting election timer to 251ms
+[Node 3] 2025/03/25 16:14:34 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:34 Resetting election timer to 183ms
+[Node 3] 2025/03/25 16:14:34 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:34 Resetting election timer to 178ms
+[Node 3] 2025/03/25 16:14:34 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:34 Resetting election timer to 178ms
+[Node 3] 2025/03/25 16:14:34 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:34 Resetting election timer to 228ms
+[Node 3] 2025/03/25 16:14:34 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:34 Resetting election timer to 179ms
+[Node 3] 2025/03/25 16:14:34 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:34 Resetting election timer to 289ms
+[Node 3] 2025/03/25 16:14:34 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:34 Resetting election timer to 189ms
+[Node 3] 2025/03/25 16:14:35 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:35 Resetting election timer to 184ms
+[Node 3] 2025/03/25 16:14:35 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:35 Resetting election timer to 165ms
+[Node 3] 2025/03/25 16:14:35 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:35 Resetting election timer to 233ms
+[Node 3] 2025/03/25 16:14:35 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:35 Resetting election timer to 165ms
+[Node 3] 2025/03/25 16:14:35 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:35 Resetting election timer to 203ms
+[Node 3] 2025/03/25 16:14:35 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:35 Resetting election timer to 285ms
+[Node 3] 2025/03/25 16:14:35 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:35 Resetting election timer to 177ms
+[Node 3] 2025/03/25 16:14:35 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:35 Resetting election timer to 236ms
+[Node 3] 2025/03/25 16:14:35 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:35 Resetting election timer to 296ms
+[Node 3] 2025/03/25 16:14:35 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:35 Resetting election timer to 236ms
+[Node 3] 2025/03/25 16:14:36 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:36 Resetting election timer to 270ms
+[Node 3] 2025/03/25 16:14:36 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:36 Resetting election timer to 150ms
+[Node 3] 2025/03/25 16:14:36 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:36 Resetting election timer to 255ms
+[Node 3] 2025/03/25 16:14:36 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:36 Resetting election timer to 207ms
+[Node 3] 2025/03/25 16:14:36 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:36 Resetting election timer to 157ms
+[Node 3] 2025/03/25 16:14:36 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:36 Resetting election timer to 180ms
+[Node 3] 2025/03/25 16:14:36 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:36 Resetting election timer to 289ms
+[Node 3] 2025/03/25 16:14:36 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:36 Resetting election timer to 226ms
+[Node 3] 2025/03/25 16:14:36 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:36 Resetting election timer to 162ms
+[Node 3] 2025/03/25 16:14:36 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:36 Resetting election timer to 291ms
+[Node 3] 2025/03/25 16:14:37 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:37 Resetting election timer to 234ms
+[Node 3] 2025/03/25 16:14:37 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:37 Resetting election timer to 233ms
+[Node 3] 2025/03/25 16:14:37 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:37 Resetting election timer to 167ms
+[Node 3] 2025/03/25 16:14:37 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:37 Resetting election timer to 182ms
+[Node 3] 2025/03/25 16:14:37 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:37 Resetting election timer to 234ms
+[Node 3] 2025/03/25 16:14:37 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:37 Resetting election timer to 250ms
+[Node 3] 2025/03/25 16:14:37 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:37 Resetting election timer to 162ms
+[Node 3] 2025/03/25 16:14:37 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:37 Resetting election timer to 240ms
+[Node 3] 2025/03/25 16:14:37 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:37 Resetting election timer to 172ms
+[Node 3] 2025/03/25 16:14:37 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:37 Resetting election timer to 229ms
+[Node 3] 2025/03/25 16:14:38 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:38 Resetting election timer to 194ms
+[Node 3] 2025/03/25 16:14:38 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:38 Resetting election timer to 199ms
+[Node 3] 2025/03/25 16:14:38 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:38 Resetting election timer to 208ms
+[Node 3] 2025/03/25 16:14:38 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:38 Resetting election timer to 233ms
+[Node 3] 2025/03/25 16:14:38 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:38 Resetting election timer to 222ms
+[Node 3] 2025/03/25 16:14:38 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:38 Resetting election timer to 293ms
+[Node 3] 2025/03/25 16:14:38 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:38 Resetting election timer to 230ms
+[Node 3] 2025/03/25 16:14:38 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:38 Resetting election timer to 253ms
+[Node 3] 2025/03/25 16:14:38 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:38 Resetting election timer to 179ms
+[Node 3] 2025/03/25 16:14:38 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:38 Resetting election timer to 205ms
+[Node 3] 2025/03/25 16:14:39 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:39 Resetting election timer to 243ms
+[Node 3] 2025/03/25 16:14:39 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:39 Resetting election timer to 232ms
+[Node 3] 2025/03/25 16:14:39 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:39 Resetting election timer to 175ms
+[Node 3] 2025/03/25 16:14:39 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:39 Resetting election timer to 168ms
+[Node 3] 2025/03/25 16:14:39 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:39 Resetting election timer to 288ms
+[Node 3] 2025/03/25 16:14:39 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:39 Resetting election timer to 168ms
+[Node 3] 2025/03/25 16:14:39 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:39 Resetting election timer to 235ms
+[Node 3] 2025/03/25 16:14:39 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:39 Resetting election timer to 205ms
+[Node 3] 2025/03/25 16:14:39 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:39 Resetting election timer to 235ms
+[Node 3] 2025/03/25 16:14:39 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:39 Resetting election timer to 240ms
+[Node 3] 2025/03/25 16:14:40 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:40 Resetting election timer to 163ms
+[Node 3] 2025/03/25 16:14:40 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:40 Resetting election timer to 212ms
+[Node 3] 2025/03/25 16:14:40 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:40 Resetting election timer to 268ms
+[Node 3] 2025/03/25 16:14:40 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:40 Resetting election timer to 272ms
+[Node 3] 2025/03/25 16:14:40 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:40 Resetting election timer to 194ms
+[Node 3] 2025/03/25 16:14:40 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:40 Resetting election timer to 279ms
+[Node 3] 2025/03/25 16:14:40 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:40 Resetting election timer to 222ms
+[Node 3] 2025/03/25 16:14:40 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:40 Resetting election timer to 298ms
+[Node 3] 2025/03/25 16:14:40 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:40 Resetting election timer to 246ms
+[Node 3] 2025/03/25 16:14:40 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:40 Resetting election timer to 256ms
+[Node 3] 2025/03/25 16:14:41 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:41 Resetting election timer to 282ms
+[Node 3] 2025/03/25 16:14:41 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:41 Resetting election timer to 195ms
+[Node 3] 2025/03/25 16:14:41 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:41 Resetting election timer to 186ms
+[Node 3] 2025/03/25 16:14:41 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:41 Resetting election timer to 213ms
+[Node 3] 2025/03/25 16:14:41 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:41 Resetting election timer to 160ms
+[Node 3] 2025/03/25 16:14:41 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:41 Resetting election timer to 243ms
+[Node 3] 2025/03/25 16:14:41 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:41 Resetting election timer to 254ms
+[Node 3] 2025/03/25 16:14:41 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:41 Resetting election timer to 163ms
+[Node 3] 2025/03/25 16:14:41 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:41 Resetting election timer to 160ms
+[Node 3] 2025/03/25 16:14:41 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:41 Resetting election timer to 257ms
+[Node 3] 2025/03/25 16:14:42 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:42 Resetting election timer to 174ms
+[Node 3] 2025/03/25 16:14:42 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:42 Resetting election timer to 158ms
+[Node 3] 2025/03/25 16:14:42 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:42 Resetting election timer to 203ms
+[Node 3] 2025/03/25 16:14:42 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:42 Resetting election timer to 232ms
+[Node 3] 2025/03/25 16:14:42 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:42 Resetting election timer to 278ms
+[Node 3] 2025/03/25 16:14:42 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:42 Resetting election timer to 153ms
+[Node 3] 2025/03/25 16:14:42 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:42 Resetting election timer to 255ms
+[Node 3] 2025/03/25 16:14:42 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:42 Resetting election timer to 220ms
+[Node 3] 2025/03/25 16:14:42 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:42 Resetting election timer to 297ms
+[Node 3] 2025/03/25 16:14:42 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:42 Resetting election timer to 255ms
+[Node 3] 2025/03/25 16:14:43 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:43 Resetting election timer to 195ms
+[Node 3] 2025/03/25 16:14:43 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:43 Resetting election timer to 159ms
+[Node 3] 2025/03/25 16:14:43 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:43 Resetting election timer to 154ms
+[Node 3] 2025/03/25 16:14:43 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:43 Resetting election timer to 270ms
+[Node 3] 2025/03/25 16:14:43 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:43 Resetting election timer to 187ms
+[Node 3] 2025/03/25 16:14:43 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:43 Resetting election timer to 236ms
+[Node 3] 2025/03/25 16:14:43 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:43 Resetting election timer to 217ms
+[Node 3] 2025/03/25 16:14:43 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:43 Resetting election timer to 251ms
+[Node 3] 2025/03/25 16:14:43 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:43 Resetting election timer to 199ms
+[Node 3] 2025/03/25 16:14:43 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:43 Resetting election timer to 199ms
+[Node 3] 2025/03/25 16:14:44 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:44 Resetting election timer to 169ms
+[Node 3] 2025/03/25 16:14:44 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:44 Resetting election timer to 251ms
+[Node 3] 2025/03/25 16:14:44 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:44 Resetting election timer to 186ms
+[Node 3] 2025/03/25 16:14:44 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:44 Resetting election timer to 156ms
+[Node 3] 2025/03/25 16:14:44 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:44 Resetting election timer to 153ms
+[Node 3] 2025/03/25 16:14:44 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:44 Resetting election timer to 198ms
+[Node 3] 2025/03/25 16:14:44 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:44 Resetting election timer to 281ms
+[Node 3] 2025/03/25 16:14:44 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:44 Resetting election timer to 261ms
+[Node 3] 2025/03/25 16:14:44 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:44 Resetting election timer to 275ms
+[Node 3] 2025/03/25 16:14:44 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:44 Resetting election timer to 254ms
+[Node 3] 2025/03/25 16:14:45 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:45 Resetting election timer to 202ms
+[Node 3] 2025/03/25 16:14:45 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:45 Resetting election timer to 266ms
+[Node 3] 2025/03/25 16:14:45 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:45 Resetting election timer to 296ms
+[Node 3] 2025/03/25 16:14:45 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:45 Resetting election timer to 164ms
+[Node 3] 2025/03/25 16:14:45 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:45 Resetting election timer to 232ms
+[Node 3] 2025/03/25 16:14:45 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:45 Resetting election timer to 200ms
+[Node 3] 2025/03/25 16:14:45 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:45 Resetting election timer to 227ms
+[Node 3] 2025/03/25 16:14:45 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:45 Resetting election timer to 178ms
+[Node 3] 2025/03/25 16:14:45 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:45 Resetting election timer to 271ms
+[Node 3] 2025/03/25 16:14:45 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:45 Resetting election timer to 267ms
+[Node 3] 2025/03/25 16:14:46 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:46 Resetting election timer to 215ms
+[Node 3] 2025/03/25 16:14:46 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:46 Resetting election timer to 298ms
+[Node 3] 2025/03/25 16:14:46 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:46 Resetting election timer to 157ms
+[Node 3] 2025/03/25 16:14:46 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:46 Resetting election timer to 187ms
+[Node 3] 2025/03/25 16:14:46 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:46 Resetting election timer to 229ms
+[Node 3] 2025/03/25 16:14:46 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:46 Resetting election timer to 195ms
+[Node 3] 2025/03/25 16:14:46 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:46 Resetting election timer to 162ms
+[Node 3] 2025/03/25 16:14:46 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:46 Resetting election timer to 250ms
+[Node 3] 2025/03/25 16:14:46 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:46 Resetting election timer to 268ms
+[Node 3] 2025/03/25 16:14:46 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:46 Resetting election timer to 200ms
+[Node 3] 2025/03/25 16:14:47 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:47 Resetting election timer to 250ms
+[Node 3] 2025/03/25 16:14:47 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:47 Resetting election timer to 277ms
+[Node 3] 2025/03/25 16:14:47 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:47 Resetting election timer to 242ms
+[Node 3] 2025/03/25 16:14:47 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:47 Resetting election timer to 239ms
+[Node 3] 2025/03/25 16:14:47 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:47 Resetting election timer to 264ms
+[Node 3] 2025/03/25 16:14:47 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:47 Resetting election timer to 169ms
+[Node 3] 2025/03/25 16:14:47 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:47 Resetting election timer to 155ms
+[Node 3] 2025/03/25 16:14:47 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:47 Resetting election timer to 245ms
+[Node 3] 2025/03/25 16:14:47 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:47 Resetting election timer to 275ms
+[Node 3] 2025/03/25 16:14:47 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:47 Resetting election timer to 225ms
+[Node 3] 2025/03/25 16:14:48 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:48 Resetting election timer to 204ms
+[Node 3] 2025/03/25 16:14:48 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:48 Resetting election timer to 241ms
+[Node 3] 2025/03/25 16:14:48 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:48 Resetting election timer to 285ms
+[Node 3] 2025/03/25 16:14:48 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:48 Resetting election timer to 241ms
+[Node 3] 2025/03/25 16:14:48 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:48 Resetting election timer to 285ms
+[Node 3] 2025/03/25 16:14:48 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:48 Resetting election timer to 220ms
+[Node 3] 2025/03/25 16:14:48 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:48 Resetting election timer to 207ms
+[Node 3] 2025/03/25 16:14:48 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:48 Resetting election timer to 265ms
+[Node 3] 2025/03/25 16:14:48 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:48 Resetting election timer to 266ms
+[Node 3] 2025/03/25 16:14:48 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:48 Resetting election timer to 192ms
+[Node 3] 2025/03/25 16:14:49 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:49 Resetting election timer to 227ms
+[Node 3] 2025/03/25 16:14:49 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:49 Resetting election timer to 200ms
+[Node 3] 2025/03/25 16:14:49 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:49 Resetting election timer to 291ms
+[Node 3] 2025/03/25 16:14:49 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:49 Resetting election timer to 234ms
+[Node 3] 2025/03/25 16:14:49 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:49 Resetting election timer to 286ms
+[Node 3] 2025/03/25 16:14:49 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:49 Resetting election timer to 230ms
+[Node 3] 2025/03/25 16:14:49 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:49 Resetting election timer to 262ms
+[Node 3] 2025/03/25 16:14:49 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:49 Resetting election timer to 240ms
+[Node 3] 2025/03/25 16:14:49 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:49 Resetting election timer to 289ms
+[Node 3] 2025/03/25 16:14:49 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:49 Resetting election timer to 238ms
+[Node 3] 2025/03/25 16:14:50 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:50 Resetting election timer to 262ms
+[Node 3] 2025/03/25 16:14:50 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:50 Resetting election timer to 191ms
+[Node 3] 2025/03/25 16:14:50 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:50 Resetting election timer to 285ms
+[Node 3] 2025/03/25 16:14:50 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:50 Resetting election timer to 210ms
+[Node 3] 2025/03/25 16:14:50 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:50 Resetting election timer to 275ms
+[Node 3] 2025/03/25 16:14:50 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:50 Resetting election timer to 299ms
+[Node 3] 2025/03/25 16:14:50 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:50 Resetting election timer to 221ms
+[Node 3] 2025/03/25 16:14:50 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:50 Resetting election timer to 260ms
+[Node 3] 2025/03/25 16:14:50 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:50 Resetting election timer to 178ms
+[Node 3] 2025/03/25 16:14:50 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:50 Resetting election timer to 239ms
+[Node 3] 2025/03/25 16:14:51 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:51 Resetting election timer to 244ms
+[Node 3] 2025/03/25 16:14:51 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:51 Resetting election timer to 165ms
+[Node 3] 2025/03/25 16:14:51 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:51 Resetting election timer to 209ms
+[Node 3] 2025/03/25 16:14:51 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:51 Resetting election timer to 237ms
+[Node 3] 2025/03/25 16:14:51 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:51 Resetting election timer to 194ms
+[Node 3] 2025/03/25 16:14:51 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:51 Resetting election timer to 165ms
+[Node 3] 2025/03/25 16:14:51 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:51 Resetting election timer to 180ms
+[Node 3] 2025/03/25 16:14:51 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:51 Resetting election timer to 222ms
+[Node 3] 2025/03/25 16:14:51 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:51 Resetting election timer to 276ms
+[Node 3] 2025/03/25 16:14:51 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:51 Resetting election timer to 246ms
+[Node 3] 2025/03/25 16:14:52 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:52 Resetting election timer to 222ms
+[Node 3] 2025/03/25 16:14:52 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:52 Resetting election timer to 291ms
+[Node 3] 2025/03/25 16:14:52 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:52 Resetting election timer to 281ms
+[Node 3] 2025/03/25 16:14:52 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:52 Resetting election timer to 187ms
+[Node 3] 2025/03/25 16:14:52 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:52 Resetting election timer to 196ms
+[Node 3] 2025/03/25 16:14:52 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:52 Resetting election timer to 222ms
+[Node 3] 2025/03/25 16:14:52 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:52 Resetting election timer to 296ms
+[Node 3] 2025/03/25 16:14:52 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:52 Resetting election timer to 299ms
+[Node 3] 2025/03/25 16:14:52 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:52 Resetting election timer to 228ms
+[Node 3] 2025/03/25 16:14:52 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:52 Resetting election timer to 204ms
+[Node 3] 2025/03/25 16:14:53 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:53 Resetting election timer to 186ms
+[Node 3] 2025/03/25 16:14:53 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:53 Resetting election timer to 183ms
+[Node 3] 2025/03/25 16:14:53 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:53 Resetting election timer to 280ms
+[Node 3] 2025/03/25 16:14:53 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:53 Resetting election timer to 230ms
+[Node 3] 2025/03/25 16:14:53 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:53 Resetting election timer to 267ms
+[Node 3] 2025/03/25 16:14:53 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:53 Resetting election timer to 183ms
+[Node 3] 2025/03/25 16:14:53 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:53 Resetting election timer to 193ms
+[Node 3] 2025/03/25 16:14:53 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:53 Resetting election timer to 196ms
+[Node 3] 2025/03/25 16:14:53 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:53 Resetting election timer to 235ms
+[Node 3] 2025/03/25 16:14:53 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:53 Resetting election timer to 237ms
+[Node 3] 2025/03/25 16:14:54 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:54 Resetting election timer to 182ms
+[Node 3] 2025/03/25 16:14:54 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:54 Resetting election timer to 224ms
+[Node 3] 2025/03/25 16:14:54 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:54 Resetting election timer to 299ms
+[Node 3] 2025/03/25 16:14:54 Received heartbeat from leader 1 (term 2)
+[Node 3] 2025/03/25 16:14:54 Resetting election timer to 230ms
