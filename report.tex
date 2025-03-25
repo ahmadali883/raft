@@ -20,12 +20,13 @@ This report documents the implementation of the Raft consensus algorithm, focusi
 \section{System Architecture}
 
 \subsection{Core Components}
-The implementation consists of three main components:
+The implementation consists of two main components:
 \begin{itemize}
-    \item \textbf{Node Management (node.go)}: Handles node state, leader election, and consensus logic
-    \item \textbf{RPC Communication (rpc.go)}: Manages inter-node communication and log replication
-    \item \textbf{State Storage (store.go)}: Maintains the distributed key-value store
+    \item \textbf{Node Management (node.go)}: Handles node state, leader election, consensus logic, and state persistence
+    \item \textbf{RPC Communication (rpc.go)}: Manages inter-node communication, log replication protocols, and heartbeat mechanisms
 \end{itemize}
+
+Each node maintains its own state directory for persistence, with a dedicated logging system for diagnostic purposes. The system implements a key-value store as the underlying state machine application.
 
 \subsection{Data Structures}
 Key data structures include:
@@ -39,13 +40,28 @@ type LogEntry struct {
 }
 
 type RaftNode struct {
+    mu              sync.RWMutex
     state           State
     currentTerm     int
     votedFor        int
     log             []LogEntry
     commitIndex     int
     lastApplied     int
-    // ... other fields
+    nextIndex       map[int]int
+    matchIndex      map[int]int
+    kvStore         map[string]string
+    peers           []*RaftNode
+    id              int
+    electionTimer   *time.Timer
+    heartbeatTimer  *time.Timer
+    snapshotIndex   int
+    lastIncludedTerm int
+    persistentDir   string
+    lastHeartbeat   time.Time
+    failureDetector *time.Timer
+    stopCh          chan struct{}
+    logger          *log.Logger
+    logFile         *os.File
 }
 \end{lstlisting}
 
@@ -54,19 +70,21 @@ type RaftNode struct {
 \subsection{Leader Election}
 The implementation ensures robust leader election through:
 \begin{itemize}
-    \item Randomized election timeouts (150-300ms)
-    \item Term-based voting restrictions
-    \item Log completeness checking before voting
-    \item Persistent vote state across crashes
+    \item Randomized election timeouts (150-300ms) to prevent election conflicts
+    \item Term-based voting restrictions with proper state persistence
+    \item Log completeness checking before granting votes (comparing LastLogIndex and LastLogTerm)
+    \item Graceful transition between different node states (Follower, Candidate, Leader)
+    \item Immediate demotion to follower when receiving higher term messages
 \end{itemize}
 
 \subsection{Log Replication}
 Log replication is implemented with the following features:
 \begin{itemize}
-    \item Atomic log updates
-    \item Fast log backtracking using conflict terms
-    \item Majority-based commit rules
-    \item Entry status tracking (uncommitted/committed/applied)
+    \item Atomic log updates with proper conflict resolution
+    \item Fast log backtracking using ConflictIndex and ConflictTerm for efficient reconciliation
+    \item Majority-based commit rules with proper handling of term boundaries
+    \item Entry status tracking through the uncommitted/committed/applied status fields
+    \item Persistent log storage to handle node restarts
 \end{itemize}
 
 \subsection{Failure Handling}
@@ -74,63 +92,78 @@ The system handles various failure scenarios:
 
 \subsubsection{Leader Failure}
 \begin{itemize}
-    \item Heartbeat-based failure detection
-    \item Automatic election triggering
-    \item State transfer to new leader
+    \item Heartbeat-based failure detection with configurable timeouts
+    \item Automatic election triggering when heartbeats are missed
+    \item Safe term increment during elections to ensure election safety
+    \item Proper log reconciliation when a new leader is elected
 \end{itemize}
 
 \subsubsection{Follower Failure}
 \begin{itemize}
-    \item Log catch-up mechanism
-    \item Incremental log recovery
-    \item Snapshot-based recovery for far-behind nodes
+    \item Log consistency validation on AppendEntries RPC
+    \item Efficient log catch-up mechanism using ConflictIndex/ConflictTerm fields
+    \item Incremental log recovery with correct index/term handling
+    \item Proper handling of lagging nodes through nextIndex/matchIndex tracking
 \end{itemize}
 
 \section{State Persistence}
 The implementation ensures durability through:
 \begin{itemize}
-    \item Periodic state persistence
-    \item Atomic file updates
-    \item Crash recovery procedures
-    \item State machine rebuilding
+    \item Periodic state persistence via persistStateLoop()
+    \item JSON-based state serialization for term, votedFor, logs, and KV store
+    \item Crash recovery procedures through recoverState()
+    \item Dedicated persistent storage path for each node
+    \item Critical state updates (voting, term changes) trigger immediate persistence
 \end{itemize}
 
 \section{Performance Optimizations}
 
 \subsection{Log Replication}
 \begin{itemize}
-    \item Batch log entry transmission
-    \item Fast log backtracking using conflict terms
-    \item Efficient log truncation
+    \item Optimized log inconsistency resolution using ConflictIndex/ConflictTerm
+    \item Batch log entry transmission in AppendEntries RPC
+    \item Parallel response handling for AppendEntries responses
+    \item Reduced log scanning by tracking lastApplied and commitIndex
 \end{itemize}
 
 \subsection{Communication}
 \begin{itemize}
-    \item Asynchronous RPC handling
-    \item Optimized heartbeat intervals
-    \item Batched updates
+    \item Asynchronous RPC handling with proper lock management
+    \item Optimized heartbeat intervals to reduce network traffic
+    \item Efficient failure detection mechanisms
+    \item Lock granularity optimization to reduce contention
+\end{itemize}
+
+\section{Key-Value Store Features}
+The implementation provides a distributed key-value store with these operations:
+\begin{itemize}
+    \item Put(key, value) - Set or update a key-value pair
+    \item Get(key) - Retrieve the value for a key
+    \item Append(key, value) - Append a string to an existing value (demonstrated with "Hello, World!" example)
 \end{itemize}
 
 \section{Testing and Validation}
 The implementation has been tested for:
 \begin{itemize}
     \item Leader election correctness
-    \item Log consistency
-    \item Fault tolerance
-    \item Network partition handling
-    \item Performance under load
+    \item Log consistency across node failures
+    \item Fault tolerance with node crashes
+    \item Proper term handling across the cluster
+    \item Command application to the key-value store
+    \item Data consistency verification across all nodes
 \end{itemize}
 
 \section{Future Improvements}
 Potential enhancements include:
 \begin{itemize}
-    \item Log compaction through snapshots
-    \item Dynamic membership changes
-    \item Read-only queries optimization
-    \item Better monitoring and metrics
+    \item Complete implementation of log compaction through snapshots (partially implemented)
+    \item Dynamic membership changes for cluster reconfiguration
+    \item Read-only queries optimization to improve read performance
+    \item Better monitoring and metrics collection
+    \item Client redirection protocols for seamless client operations
 \end{itemize}
 
 \section{Conclusion}
-The implementation provides a robust and efficient distributed consensus system based on the Raft algorithm. It successfully handles various failure scenarios while maintaining consistency and performance.
+The implementation provides a robust and efficient distributed consensus system based on the Raft algorithm. It successfully handles node failures, maintains log consistency, and provides a working distributed key-value store, demonstrating the core principles of the Raft consensus algorithm.
 
 \end{document} 
